@@ -1,216 +1,217 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
- background-color: #fff;
- font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+  font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
-  background-image: url(../images/winter.jpg);
+  background-image: url("../images/winter.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .first-line {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
 nav {
-    display: none;
+  display: none;
 }
 
 button {
   background-color: transparent;
 }
 .logo {
-    margin: 0;
-    img {
-        width: 100px;
-        height: 70px;
-    }
+  margin: 0;
+  img {
+      width: 100px;
+      height: 70px;
+  }
 }
 
 .menu {
-    font-size: 3rem;
-    i {
-        font-size: 2rem;
-    }
+  font-size: 3rem;
+  i {
+    font-size: 2rem;
+  }
 }
 
 .animate {
-    margin-left: 1rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
    
-    h1 {
-       padding-bottom: 1rem;     
-    }
+  h1 {
+      padding-bottom: 1rem;     
+  }
 
-    p {
-        padding-bottom: 1rem;
-    }
+  p {
+    padding-bottom: 1rem;
+  }
 
-    button {
-        border-radius: 5px;
-        padding: 1rem;
-    }
+  button {
+      border-radius: 5px;
+      padding: 1rem;
+  }
 }
 
 main {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .select {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
+
 .section-one {
-    h2 {
-        padding: 0.7em 0;
-    }
+  h2 {
+  padding: 0.7em 0;
+  }
 
-    p {
-        padding-bottom: 1rem;
-    }
+  p {
+      padding-bottom: 1rem;
+  }
 
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-    }
+  button {
+  border-radius: 6px;
+  padding: 1rem;
+  }
 }
 
 .quest {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 video {
-   padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .icons {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 1rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 0;
 
-    img {
-        width: 50px;
-        height: 50px;
-    }
+  img {
+  width: 50px;
+  height: 50px;
+  }
 }
 
 .section-two {
-    background-image: url(../images/nature.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #fff;
+  background-image: url("../images/nature.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
 
-    h3 {
-        padding: 1rem 2rem;
-    }
+  h3 {
+      padding: 1rem 2rem;
+  }
 
-    p {
-        padding: 1rem 2rem;
-    }
+  p {
+      padding: 1rem 2rem;
+  }
 
-    button {
-     border-radius: 15px;
-     margin: 1rem;
-     padding: 1rem;
-    }
+  button {
+   border-radius: 15px;
+   margin: 1rem;
+   padding: 1rem;
+  }
 }
 
 .nomber {
-    display: flex;
-    padding: 1rem;
+  display: flex;
+  padding: 1rem;
     
-    ul {
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        list-style: none;
-    }
+  ul {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      list-style: none;
+  }
 
-    li {
-        justify-content: space-between;
-        padding: 1rem;
-    }
+  li {
+      justify-content: space-between;
+      padding: 1rem;
+  }
 }
 
 .one {
-    color: dodgerblue;
-    font-size: 2rem;
-    font-style: bold;
+  color: dodgerblue;
+  font-size: 2rem;
+  font-style: bold;
 }
 
 .for {
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-        margin: 1rem;
-    }
+  button {
+    border-radius: 6px;
+    padding: 1rem;
+      margin: 1rem;
+  }
 }
 .peo {
-    padding: 1rem;
-    margin: 1rem;
-    font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
 }
 
 .mag {
-    padding: 1rem;
-    margin: 1rem;   
+  padding: 1rem;
+  margin: 1rem;   
 }
 
 .more {
-    display: block;
-    gap: 1rem;
-    background-color: #ebebeb;
-    text-align: center;
-    padding: 3rem 0;
+  display: block;
+  gap: 1rem;
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 3rem 0;
 }
 
 .box {
+  padding: 1rem;
+  margin: 1rem 2rem;
+  background-color: #fff;
+  padding: 1.2rem 0.7rem;
+  box-shadow: 0 4px 4px #f6f0f0;
+
+  h {
+      padding: 1rem;
+      margin: 1rem;
+  }
+
+  p {
     padding: 1rem;
-    margin: 1rem 2rem;
-    background-color: #fff;
-    padding: 1.2rem 0.7rem;
-    box-shadow: 0 4px 4px #f6f0f0;
+    margin: 1rem;
+  }
 
-    h {
-        padding: 1rem;
-        margin: 1rem;
-    }
-
-    p {
-        padding: 1rem;
-        margin: 1rem;
-    }
-
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-      }
+  button {
+    border-radius: 6px;
+    padding: 1rem;
+  }
 }
 
 .two {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 .two .material-icons {
-    font-size: 7rem;
+  font-size: 7rem;
 }
 
 .section-four {
-    text-align: center;
+  text-align: center;
 }
+
 .why {
   padding-top: 3rem;
   text-align: center;
@@ -228,12 +229,12 @@ video {
 }
 
 .wh {
-    color: dodgerblue;
-    padding-left: 1rem;
+  color: dodgerblue;
+  padding-left: 1rem;
 }
 
 .seven {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 .seven .material-icons {
@@ -246,233 +247,162 @@ video {
 }
 
 .img img {
-    width: 100%;
+  width: 100%;
 }
 
 .section-five {
-    margin-top: 2rem;
-    text-align: center;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .order {
-    display: block;
-    gap: 1rem;
-    background-color: #ebebeb;
-    text-align: center;
-    padding: 3rem 0;
+  display: block;
+  gap: 1rem;
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 3rem 0;
 }
 
 .img-one img {
-      margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .chat {
-    color: dodgerblue;
-
+  color: dodgerblue;
 }
 
 .chat .material-icons {
-        font-size: 5rem;
+  font-size: 5rem;
 }
 
 .z {
-    text-align: center;
-    padding-top: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding: 1rem;
+  margin: 1rem 2rem;
+  background-color: #fff;
+  padding: 1.2rem 0.7rem;
+  box-shadow: 0 4px 4px #f6f0f0;
+
+  h2 {
+      padding: 1rem;
+  }
+
+  p {
+      padding: 1rem;
+  }
+
+  button {
+    border-radius: 6px;
     padding: 1rem;
-    margin: 1rem 2rem;
-    background-color: #fff;
-    padding: 1.2rem 0.7rem;
-    box-shadow: 0 4px 4px #f6f0f0;
-
-    h2 {
-        padding: 1rem;
-    }
-
-    p {
-        padding: 1rem;
-    }
-
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-    }
+  }
 
 }
 
 .section-six {
-    display: block;
-    gap: 1rem;
-    background-color: #ebebeb;
-    text-align: center;
-    padding: 3rem 0; 
+  display: block;
+  gap: 1rem;
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 3rem 0; 
 }
+
 .mak {
-    background-image:url(../images/house.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #fff;
+  background-image:url("../images/house.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
 
-    h1 {
-        padding: 1rem 2rem;
-    }
-
-    p {
-        padding: 1rem 2rem;
-    }
-
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-        margin: 1rem;
-        border: 1px solid white;
-        color: white;
-    }
+h1 {
+  padding: 1rem 2rem;
 }
 
 .three {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 .three .material-icons {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .a {
-    text-align: center;
-    padding-top: 1rem;
-    padding: 1rem;
-    margin: 1rem 2rem;
-    background-color: #fff;
-    padding: 1.2rem 0.7rem;
-    box-shadow: 0 4px 4px #f6f0f0;
-   
-    h2 {
-        padding: 1rem;
-    }
-
-    p {
-        margin: 1rem;
-    }
-
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-    }
+  text-align: center;
+  padding-top: 1rem;
+  padding: 1rem;
+  margin: 1rem 2rem;
+  background-color: #fff;
+  padding: 1.2rem 0.7rem;
+  box-shadow: 0 4px 4px #f6f0f0;
 }
 
 .section-seven {
-    margin-top: 2rem;
-    background-color: #ebebeb;  
+  margin-top: 2rem;
+  background-color: #ebebeb;  
 }
 
 .deux{
-    h1 {
-        padding: 1rem;
-    }
-
-    p {
-        padding: 1rem 2rem;
-    }
+  padding: 1rem 2rem;
 }
 
 .say {
-    color: dodgerblue;
-    padding-top: 1rem;
-    margin-top: 1rem;
+  color: dodgerblue;
+  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .rest {
-    display: block;
-    border-radius: 1rem;
-    padding: 2rem;
-    margin: 2rem;
-    background-color: #fff;
+  display: block;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #fff;
 }
 
 .alex img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .rh {
-    display: block;
-    border-radius: 1rem;
-    padding: 2rem;
-    margin: 2rem;
-    background-color: #fff; 
+  display: block;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #fff; 
 }
 
 .reb img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 footer {
-    background-color: dimgray;
+  background-color: dimgray;
 }
 
 .abt {
-    margin-top: 2rem;
-    padding: 1rem;
-
-    button {
-        border-radius: 6px;
-        padding: 1rem;
-        margin: 2rem;
-    }
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
+button {
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.end,
+.last,
+.legal,
+h3,
+ul ,
+p,
+h2,
+.serv,
 .kit {
-    padding: 1rem;
-    
-    h2 {
-        padding: 1rem;
-    }
-
-    p {
-        padding: 1rem;
-    }
-}
-
-.serv {
-    padding: 1rem;
-
-    h2 {
-        padding: 1rem;
-    }
-
-    p {
-        padding: 1rem;
-    }
-}
-
-.std {
-    padding: 1rem;
-
-    h3 {
-        padding: 1rem;
-    }
-
-    ul {
-        list-style: none;
-    }
-}
-
-.end {
-    padding: 1rem;
-
-    last {
-        padding: 1rem;
-    }
-
-    legal {
-        padding: 1rem;
-    }
-
-    ul {
-        list-style: none;
-    }
+  list-style: none;
 }
