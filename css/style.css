@@ -13,6 +13,11 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: #fff;
+
+  button{
+    color: #fff;
+  }
 }
 
 .first-line {
@@ -27,6 +32,8 @@ nav {
 
 button {
   background-color: transparent;
+  border-color: black;
+  color: black;
 }
 
 .logo {
@@ -329,6 +336,13 @@ video {
   h1 {
     padding: 1rem 2rem;
   }
+
+  button {
+    border-radius: 6px;
+    padding: 1rem;
+    color: #fff;
+    background-color: transparent;
+  }
 }
 
 .three {
@@ -345,6 +359,11 @@ video {
   background-color: #fff;
   padding: 1.2rem 0.7rem;
   box-shadow: 0 4px 4px #f6f0f0;
+
+  button {
+    border-radius: 6px;
+    padding: 1rem;
+  }
 }
 
 .section-seven {
@@ -391,7 +410,8 @@ video {
 }
 
 footer {
-  background-color: dimgray;
+  background-color: #000;
+  color: #fff;
 }
 
 .abt {
@@ -402,5 +422,7 @@ footer {
     border-radius: 6px;
     padding: 1rem;
     margin: 2rem;
+    color: #fff;
+    border-color: #fff;
   }
 }
