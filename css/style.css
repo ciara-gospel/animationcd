@@ -400,4 +400,5 @@ h2,
 .serv,
 .kit {
   list-style: none;
+  padding-bottom: 1rem;
 }
