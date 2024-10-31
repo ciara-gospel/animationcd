@@ -9,10 +9,10 @@ body {
 }
 
 button {
-    background-color: transparent;
-    border-color: black;
-    color: black;
-  }
+  background-color: transparent;
+  border-color: black;
+  color: black;
+}
 
 header {
   background-image: url("../images/winter.jpg");
