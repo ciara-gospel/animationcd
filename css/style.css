@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header {
@@ -28,16 +28,19 @@ nav {
 button {
   background-color: transparent;
 }
+
 .logo {
   margin: 0;
+
   img {
-      width: 100px;
-      height: 70px;
+    width: 100px;
+    height: 70px;
   }
 }
 
 .menu {
   font-size: 3rem;
+
   i {
     font-size: 2rem;
   }
@@ -48,9 +51,9 @@ button {
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
-   
+
   h1 {
-      padding-bottom: 1rem;     
+    padding-bottom: 1rem;
   }
 
   p {
@@ -58,8 +61,8 @@ button {
   }
 
   button {
-      border-radius: 5px;
-      padding: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
   }
 }
 
@@ -73,16 +76,16 @@ main {
 
 .section-one {
   h2 {
-  padding: 0.7em 0;
+    padding: 0.7em 0;
   }
 
   p {
-      padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   button {
-  border-radius: 6px;
-  padding: 1rem;
+    border-radius: 6px;
+    padding: 1rem;
   }
 }
 
@@ -101,9 +104,22 @@ video {
   padding: 1rem 0;
 
   img {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
   }
+}
+
+.end,
+.last,
+.legal,
+h3,
+ul,
+p,
+h2,
+.serv,
+.kit {
+  list-style: none;
+  padding-bottom: 1rem;
 }
 
 .section-two {
@@ -114,34 +130,34 @@ video {
   color: #fff;
 
   h3 {
-      padding: 1rem 2rem;
+    padding: 1rem 2rem;
   }
 
   p {
-      padding: 1rem 2rem;
+    padding: 1rem 2rem;
   }
 
   button {
-   border-radius: 15px;
-   margin: 1rem;
-   padding: 1rem;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 1rem;
   }
 }
 
 .nomber {
   display: flex;
   padding: 1rem;
-    
+  
   ul {
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-      list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
   }
 
   li {
-      justify-content: space-between;
-      padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
   }
 }
 
@@ -155,7 +171,7 @@ video {
   button {
     border-radius: 6px;
     padding: 1rem;
-      margin: 1rem;
+    margin: 1rem;
   }
 }
 .peo {
@@ -390,15 +406,4 @@ footer {
   }
 }
 
-.end,
-.last,
-.legal,
-h3,
-ul,
-p,
-h2,
-.serv,
-.kit {
-  list-style: none;
-  padding-bottom: 1rem;
-}
+
