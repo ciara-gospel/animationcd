@@ -412,165 +412,156 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    nav {
-      display: flex;
-    }
+  nav {
+    display: flex;
+  }
 
-    ul {
-      display: flex;
-    }
+  ul {
+    display: flex;
+  }
 
-    a {
+  a {
+    color: #fff;
+  }
+
+  .select {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2rem;
+
+    button {
+      color: steelblue;
+      border-color: steelblue;
+    }
+  }
+
+  video {
+    width: 100%;
+  }
+
+  span {
+    color: dodgerblue;
+  }
+
+  .icons {
+    padding: 4rem;
+  }
+
+  .section-two {
+    text-align: center;
+
+    button {
       color: #fff;
-    }
+      border-color: #fff; 
+  }
 
-    .select {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      padding: 2rem;
-
-      button {
-        color: steelblue;
-        border-color: steelblue;
-      }
-    }
-
-    video {
-      width: 100%;
-    }
-
+  .nomber {
     span {
-      color: dodgerblue;
-    }
-
-    .icons {
       padding: 4rem;
     }
-
-    .section-two {
-      text-align: center;
-
-      button {
-        color: #fff;
-        border-color: #fff;
-      }
-
+  }
     }
-
-    .nomber{
-      span {
-        padding: 4rem;
-      }
-    }
-
-    ul {
-      display: flex;
-    }
-
-    .section-three {
-      background-color: #ebebeb;
-    }
-    .for {
-      display: grid;
-      grid-template-columns: 50% 50%;
-
-      button {
-        border-radius: 6px;
-        padding: 1rem;
-      }
-    }
-
-    .more {
-      display: grid;
-      grid-template-columns: 33.33% 33.33% 33.33%;
+  .section-three {
+    background-color: #ebebeb;
+  }
+  .for {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    button {
+      border-radius: 6px;
       padding: 1rem;
     }
+  }
 
-    .secton-four {
+  .more {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 1rem;
+  }
+
+  .secton-four {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    .text {
       display: grid;
       grid-template-columns: 40% 60%;
-
-      .text {
-        display: grid;
-        grid-template-columns: 40% 60%;
-      }
     }
+  }
 
-    .why {
-      padding-bottom: 0.5rem;
+  .why {
+    padding-bottom: 0.5rem;
+  }
+
+  .section-five {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #ebebeb;
+  }
+
+  .order {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .img-one {
+    height: 100%;
+    width: 100%;
+  }
+
+  .section-six {
+    button {
+      border-radius: 6px;
+      padding: 1rem;
     }
+  }
 
-    .section-five {
-      display: grid;
-      grid-template-columns: 40% 60%;
-      background-color: #ebebeb;
-    }
-
-    .order {
-      display: grid;
-      grid-template-columns: 50% 50%;
-    }
-
-    .img-one {
-      height: 100%;
-      width: 100%;
-    }
-
-    .section-six {
-      button {
-        border-radius: 6px;
-        padding: 1rem;
-      }
-    }
-
-    .mak {
-      button {
-        color: #fff;
-        border-color: #fff;
-      }
-    }
-
-    .hnd {
-      display: grid;
-      grid-template-columns: 33.33% 33.33% 33.33%;
-    }
-
-    .section-seven {
-      background-color: #ebebeb;
-      display: grid;
-      grid-template-columns: 50% 50%;
-    }
-
-    .section-eight {
+  .mak {
+    button {
       color: #fff;
+      border-color: #fff;
     }
+  }
 
-    .work {
-      display: grid;
-      grid-template-columns: 40% 30% 30%;
-    }
+  .hnd {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
 
-    .kit {
-      display: block;
-    }
+  .section-seven {
+    background-color: #ebebeb;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 
-    .serv {
+  .section-eight {
+    color: #fff;
+  }
 
+  .work {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+  }
+
+  .kit {
+    display: block;
+  }
+
+  .serv {
       ul {
-        display: block;
+    display: block;
       }
     }
 
     .std {
-
-      ul {
-        display: block;
-      }
+  ul {
+      display: block;
     }
+  }
 
-    .end {
-      display: flex;
-      justify-content: space-between;
-      border-top: 2px solid dodgerblue;
-    }
+  .end {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid dodgerblue;
+  }
 }
