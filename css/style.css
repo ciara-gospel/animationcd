@@ -452,18 +452,19 @@ footer {
 
     button {
       color: #fff;
-      border-color: #fff; 
+      border-color: #fff;
+    }
+    .nomber {
+      span {
+        padding: 4rem;
+      }
+    }
   }
 
-  .nomber {
-    span {
-      padding: 4rem;
-    }
-  }
-    }
   .section-three {
     background-color: #ebebeb;
   }
+
   .for {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -548,13 +549,13 @@ footer {
   }
 
   .serv {
-      ul {
-    display: block;
-      }
+    ul {
+      display: block;
     }
+  }
 
-    .std {
-  ul {
+  .std {
+    ul {
       display: block;
     }
   }
