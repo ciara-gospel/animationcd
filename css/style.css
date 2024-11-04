@@ -14,6 +14,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
+  padding-bottom: 4rem;
 }
 
 .first-line {
@@ -353,6 +354,7 @@ video {
 .section-seven {
   margin-top: 2rem;
   background-color: #ebebeb;
+  padding-bottom: 2rem;
 }
 
 .deux {
